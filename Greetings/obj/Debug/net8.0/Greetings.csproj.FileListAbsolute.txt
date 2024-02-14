@@ -1,0 +1,15 @@
+/Users/maide/Desktop/salt/technical_interview/Scania/Greetings/bin/Debug/net8.0/Greetings
+/Users/maide/Desktop/salt/technical_interview/Scania/Greetings/bin/Debug/net8.0/Greetings.deps.json
+/Users/maide/Desktop/salt/technical_interview/Scania/Greetings/bin/Debug/net8.0/Greetings.runtimeconfig.json
+/Users/maide/Desktop/salt/technical_interview/Scania/Greetings/bin/Debug/net8.0/Greetings.dll
+/Users/maide/Desktop/salt/technical_interview/Scania/Greetings/bin/Debug/net8.0/Greetings.pdb
+/Users/maide/Desktop/salt/technical_interview/Scania/Greetings/obj/Debug/net8.0/Greetings.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maide/Desktop/salt/technical_interview/Scania/Greetings/obj/Debug/net8.0/Greetings.AssemblyInfoInputs.cache
+/Users/maide/Desktop/salt/technical_interview/Scania/Greetings/obj/Debug/net8.0/Greetings.AssemblyInfo.cs
+/Users/maide/Desktop/salt/technical_interview/Scania/Greetings/obj/Debug/net8.0/Greetings.csproj.CoreCompileInputs.cache
+/Users/maide/Desktop/salt/technical_interview/Scania/Greetings/obj/Debug/net8.0/Greetings.sourcelink.json
+/Users/maide/Desktop/salt/technical_interview/Scania/Greetings/obj/Debug/net8.0/Greetings.dll
+/Users/maide/Desktop/salt/technical_interview/Scania/Greetings/obj/Debug/net8.0/refint/Greetings.dll
+/Users/maide/Desktop/salt/technical_interview/Scania/Greetings/obj/Debug/net8.0/Greetings.pdb
+/Users/maide/Desktop/salt/technical_interview/Scania/Greetings/obj/Debug/net8.0/Greetings.genruntimeconfig.cache
+/Users/maide/Desktop/salt/technical_interview/Scania/Greetings/obj/Debug/net8.0/ref/Greetings.dll
