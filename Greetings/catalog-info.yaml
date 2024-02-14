@@ -4,10 +4,10 @@ metadata:
   name: greetings-app
   annotations:
     github.com/project-slug: rubmaigut/Scania
+  description: "A simple .NET application for Scania"
 spec:
   type: service
   lifecycle: production
-  description: "A simple .NET application for Scania"
   tags:
     - dotnet
     - docker
