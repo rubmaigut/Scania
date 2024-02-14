@@ -97,6 +97,9 @@ catalog:
       target: ../../examples/org.yaml
       rules:
         - allow: [User, Group]
+    
+    - type: url
+      target: https://github.com/rubmaigut/Scania/blob/main/Greetings/catalog-info.yaml
 
     ## Uncomment these lines to add more example data
     # - type: url
