@@ -1,14 +1,16 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: scania
+  name: greetings-app
   annotations:
     github.com/project-slug: rubmaigut/Scania
 spec:
   type: service
-  lifecycle: experimental
+  lifecycle: production
   description: "A simple .NET application for Scania"
   tags:
     - dotnet
     - docker
   owner: maidelinRubio
+  definition:
+    dockerImage: 730335514249.dkr.ecr.eu-north-1.amazonaws.com/greetings-app:latest
