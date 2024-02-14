@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: scania
+  annotations:
+    github.com/project-slug: rubmaigut/Scania
+spec:
+  type: service
+  lifecycle: experimental
+  description: "A simple .NET application for Scania"
+  tags:
+    - dotnet
+    - docker
+  owner: maidelinRubio
