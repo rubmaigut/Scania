@@ -2,11 +2,11 @@ apiVersion: scaffolder.backstage.io/v1beta3
 # https://backstage.io/docs/features/software-catalog/descriptor-format#kind-template
 kind: Template
 metadata:
-  name: example-nodejs-template
-  title: Example Node.js Template
-  description: An example template for the scaffolder that creates a simple Node.js service
+  name: greetings-app-template
+  title: Greetings App Template .Net
+  description: An example template for the scaffolder that creates a simple .Net console app 
 spec:
-  owner: user:guest
+  owner: maidelinRubio
   type: service
 
   # These parameters are used to generate the input form in the frontend, and are
@@ -57,6 +57,11 @@ spec:
         repoUrl: ${{ parameters.repoUrl }}
 
     # The final step is to register our new component in the catalog.
+    - id: trigger-github-actions
+      name: Trigger GitHub Actions
+      action: my-org/trigger-build
+      input:
+        repoName: "Scania"
     - id: register
       name: Register
       action: catalog:register
