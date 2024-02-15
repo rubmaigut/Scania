@@ -27,13 +27,17 @@ Prerequisites:
 
   
 #My Process
-- I started creating the console app with dotnet, which allows you to interact and return a message after asking for an input name.
+- Started creating the console app with dotnet, which allows interaction and returns a message after asking for an input name.
 ![Screenshot 2024-02-14 at 22 21 42](https://github.com/rubmaigut/Scania/assets/71988131/b01c6314-69ff-4bb2-94b5-083b9d62b548)
 
-- After having this application working, I created the `Dockerfile` and built the image to make sure that it was working. 
-- Then, I started to work with AWS, creating an account and reading the documentation to create the ECR. Here, my challenge and the issues I faced was with the authentication. Even after creating the IAM user, I faced an error because the container requested permission. I discovered them one by one with the error update.
-- Having the authentication ready, I worked with the CI/CD pipeline, and then when I saw that the pipeline was working and doing the deployment from AWS, I started to work with the mechanism backstage.
-- Building the trigger function inside backstage was something new for me, so it took me time and some tests to have the integration triggered automatically through GitHub.
+- Having the application working, created the `Dockerfile`  with AWS deploy information. 
+- Started to work with AWS:
+    a. Create an account and read the documentation about ECR.
+    b. Fix issues with the authentication: Create IAM user, and update permission for ECR.
+- With authentication ready mu steps were:
+    a. Created the CI/CD pipeline and success deploy.
+    b. Started to work with backstage mechanism.
+- Built trigger function inside backstage was something new for me, so it took me time and some tests to have the integration triggered automatically through GitHub.
 
 Here, you can see a log of the repository in AWS. 
 ![Screenshot 2024-02-14 at 22 31 07](https://github.com/rubmaigut/Scania/assets/71988131/b080342c-0465-49f2-a7e4-79660ab7516e)
